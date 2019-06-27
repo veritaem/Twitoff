@@ -6,14 +6,16 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+numpy = "*"
+gunicorn = "*"
+psycopg2 = "*"
 flask = "*"
 flask-sqlalchemy = "*"
+pandas = "*"
+python-dateutil = "*"
+scikit-learn = "*"
 tweepy = "*"
 basilica = "*"
-python-decouple = "*"
-python-dotenv = "*"
-scikit-learn = "*"
-gunicorn = "*"
 
 [requires]
 python_version = "3.6"
